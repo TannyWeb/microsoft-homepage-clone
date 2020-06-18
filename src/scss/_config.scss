@@ -1,5 +1,8 @@
-$primary-color: #272727;
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;800&display=swap');
+
+$primary-color: #262626;
 $secondary-color: #ff652f;
+$main-font: 'Muli', sans-serif;
 
 * {
 	box-sizing: border-box;

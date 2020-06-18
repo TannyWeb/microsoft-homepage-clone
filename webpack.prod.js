@@ -25,36 +25,6 @@ module.exports = merge(common, {
 					collapseInlineTagWhitespace: true,
 					removeComments: true
 				}
-			}),
-
-			new HtmlWebpackPlugin({
-				template: './src/pages/about.html',
-				chunks: [ 'main', 'vendor' ],
-				minify: {
-					removeAttributeQuotes: true,
-					collapseInlineTagWhitespace: true,
-					removeComments: true
-				}
-			}),
-			new HtmlWebpackPlugin({
-				template: './src/pages/projects.html',
-				chunks: [ 'main', 'vendor' ],
-				minify: {
-					removeAttributeQuotes: true,
-					collapseInlineTagWhitespace: true,
-					removeComments: true
-				}
-			}),
-
-			new HtmlWebpackPlugin({
-				filename: 'contact.html',
-				template: './src/pages/contact.html',
-				chunks: [ 'main', 'vendor' ],
-				minify: {
-					removeAttributeQuotes: true,
-					collapseInlineTagWhitespace: true,
-					removeComments: true
-				}
 			})
 		]
 	},

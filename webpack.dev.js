@@ -14,21 +14,6 @@ module.exports = merge(common, {
 			filename: 'index.html',
 			template: './src/pages/index.html',
 			chunks: [ 'main', 'vendor' ]
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'about.html',
-			template: './src/pages/about.html',
-			chunks: [ 'about', 'vendor' ]
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'projects.html',
-			template: './src/pages/projects.html',
-			chunks: [ 'about', 'vendor' ]
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'contact.html',
-			template: './src/pages/contact.html',
-			chunks: [ 'about', 'vendor' ]
 		})
 	],
 	module: {

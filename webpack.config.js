@@ -1,10 +1,9 @@
-const path = require('path');
+// const path = require('path');
 
 module.exports = {
 	entry: {
 		main: './src/js/index.js',
-		vendor: './src/js/vendor.js',
-		about: './src/js/about.js'
+		vendor: './src/js/vendor.js'
 		// projects: './src/js/projects.js'
 		// contact: './src/js/contact.js'
 	},
